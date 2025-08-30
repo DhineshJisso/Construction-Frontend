@@ -100,7 +100,8 @@ const BlogMain = () => {
   ];
 
   return (
-    <div className="py-10">
+    <div className="py-10" data-aos="zoom-up" data-aos-easing="linear"
+     data-aos-duration="1500">
       <div className="flex flex-col items-center space-y-4">
         <h1 className="text-lg font-medium text-orange-600">LATEST NEWS</h1>
         <h1 className="text-4xl font-bold">Latest News & Blogs</h1>

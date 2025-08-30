@@ -1,6 +1,7 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const ClientSection = () => {
   const Card = [
     {
@@ -22,7 +23,8 @@ const ClientSection = () => {
   ];
 
   return (
-    <div className="min-w-full mx-auto py-10 bg-white">
+    <div className="min-w-full mx-auto py-10 bg-white" data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="1500">
       <div className="flex flex-col items-center space-y-4">
         <h1 className="text-lg font-medium text-orange-600">CLIENT FEEDBACK</h1>
         <h1 className="text-4xl font-bold">Our Client Reviews</h1>

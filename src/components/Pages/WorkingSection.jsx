@@ -13,7 +13,8 @@ const steps = [
 
 const WorkingSection = () => {
   return (
-    <div className="py-16 bg-gray-50" data-aos="fade-down">
+    <div className="py-16 bg-gray-50" data-aos="fade-down" data-aos-easing="linear"
+     data-aos-duration="1500">
       <div className="max-w-6xl mx-auto text-center px-6">
 
         <p className="text-orange-600 font-semibold uppercase tracking-wide">

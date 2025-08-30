@@ -2,7 +2,8 @@ import React from 'react'
 
 const LikeSection = () => {
   return (
-   <div className='flex flex-col md:flex-row justify-between bg-indigo-950 items-center mt-5 '>
+   <div className='flex flex-col md:flex-row justify-between bg-indigo-950 items-center mt-5' data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="2000">
                 <img
                     src="/download (6).jpg"
                     alt="transport service"

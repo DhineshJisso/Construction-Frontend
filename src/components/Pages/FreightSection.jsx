@@ -64,7 +64,8 @@ const FreightSection = () => {
   }, []);
 
   return (
-    <div className="py-10" data-aos="fade-down-right">
+    <div className="py-10" data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="1500">
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 px-6 max-w-6xl mx-auto">
         {/* Image */}
         <img
@@ -90,7 +91,7 @@ const FreightSection = () => {
       </div>
 
       {/* Services Buttons */}
-      <div className="mt-10 flex flex-wrap justify-center gap-4">
+      <div className="mt-10 flex flex-wrap justify-center gap-4 "data-aos="fade-up">
         {services.map((service) => {
           const Icon = service.icon;
           return (

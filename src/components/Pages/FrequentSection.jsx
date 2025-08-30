@@ -43,7 +43,8 @@ const FrequentSection = () => {
             <h1 className="font-bold text-4xl ">Frequently Asked Question</h1>
         </div>
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
-        <div className="space-y-6" data-aos="fade-down">
+        <div className="space-y-6" data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="1500">
           <img
             src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=80"
             alt="Shipping"
@@ -72,7 +73,7 @@ const FrequentSection = () => {
         </div>
 
         <div>;
-          <div className="space-y-4">
+          <div className="space-y-4" data-aos="fade-up">
             {faqs.map((faq, index) => (
               <div key={index} className="border-b pb-4">
                 <button

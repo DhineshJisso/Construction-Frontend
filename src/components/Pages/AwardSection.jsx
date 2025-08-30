@@ -4,7 +4,8 @@ import { GrMap } from "react-icons/gr";
 
 const AwardSection = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-16 w-[80%] mx-auto py-16 items-center'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-16 w-[80%] mx-auto py-16 items-center' data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="2000">
             {/* Text Section */}
             <div className='space-y-6'>
                 <h1 className='text-lg font-medium text-orange-600'>TRANSPORTATION COMPANY</h1>

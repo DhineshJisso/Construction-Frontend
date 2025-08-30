@@ -1,5 +1,6 @@
 import React from 'react'
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const LogisticSection
  = () => {
     const Card = [
@@ -25,7 +26,8 @@ const LogisticSection
 
     return (
         <>
-            <div className='py-10 '>
+            <div className='py-10' data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="2000">
                 <div className='flex flex-col items-center text-center space-y-4'>
                     <h1 className='text-lg font-medium text-orange-600'>WHAT WE DO</h1>
                     <h1 className='text-4xl font-bold'>Logistics & Transport</h1>
@@ -40,7 +42,8 @@ const LogisticSection
                                     <img
                                         src={section.img}
                                         alt={section.service}
-                                        className='w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110'
+                                        className='w-full h-72 object-cover transition-transform duration-500 group-hover:scale-' data-aos = "fade-up"data-aos-easing="linear"
+     data-aos-duration="1500"
                                     />
 
                                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-60 transition-opacity duration-300"></div>

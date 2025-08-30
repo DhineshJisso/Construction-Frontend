@@ -4,7 +4,8 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaRegMessage } from "react-icons/fa6";
 import { IoIosContact } from "react-icons/io";
 import { MdOutlineDateRange } from "react-icons/md";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const BlogSection = () => {
   const Card = [
     {
@@ -40,7 +41,8 @@ const BlogSection = () => {
   ];
 
   return (
-    <div className="min-w-full mx-auto py-16 bg-white">
+    <div className="min-w-full mx-auto py-16 bg-white" data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="2000">
       <div className="flex flex-col items-center space-y-4">
         <h1 className="text-lg font-medium text-orange-600">LATEST NEWS</h1>
         <h1 className="text-4xl font-bold">Latest News & Blogs</h1>

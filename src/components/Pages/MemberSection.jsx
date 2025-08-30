@@ -9,7 +9,8 @@ const certificates = [certificate, certificate, certificate];
 
 const MemberSection = () => {
   return (
-    <div className="w-[80%] mx-auto p-5">
+    <div className="w-[80%] mx-auto p-5" data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="1500">
       <div className="flex flex-col md:flex-row gap-5">
         <div className="md:w-1/2">
           <img src="/download (6).jpg" alt="George Clooney" className="w-full rounded-lg" />

@@ -64,7 +64,8 @@ const VisiterSection = () => {
           </div>
         </div>
 
-        <div className="bg-orange-600 text-white p-6 sm:p-8 rounded-2xl w-full max-w-md shadow-lg">
+        <div className="bg-orange-600 text-white p-6 sm:p-8 rounded-2xl w-full max-w-md shadow-lg ms-5" data-aos-easing="linear"
+     data-aos-duration="1500">
           <h2 className="text-white text-2xl font-bold mb-6 text-center">Request a Quote</h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <label className="text-white block mb-1">Name</label>

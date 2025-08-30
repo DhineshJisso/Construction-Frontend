@@ -27,7 +27,8 @@ const TeamSection = () => {
     ];
 
     return (
-        <div className="py-10 w-[90%] md:w-[80%] mx-auto">
+        <div className="py-10 w-[90%] md:w-[80%] mx-auto" data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="1500">
             <div className="text-center">
                 <h1 className="text-lg font-medium text-orange-600">OUR WORKERS</h1>
                 <h1 className="text-4xl font-bold leading-snug">Our Delivery Teams</h1>
